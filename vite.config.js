@@ -7,6 +7,6 @@ export default defineConfig({
   // logLevel: "error", 
   // silent: true,
   server: {
-    port: 8000,
+    port: 3000     ,
   }
 });
