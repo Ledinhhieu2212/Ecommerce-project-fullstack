@@ -1,6 +1,6 @@
 import { Category } from "./components/Categories/Category";
 import { Header } from "./components/Header/Header";
-import { Item } from "./components/Preferential/Item";
+import { Product } from "./components/Preferential/Product";
 import Hero from "./components/hero/Hero";
 import "./index.scss";
 
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Hero />
       <Category />
-      <Item heading="Best Deals For You!" />
+      <Product />
     </>
   ); 
 

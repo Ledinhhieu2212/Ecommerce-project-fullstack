@@ -1,19 +1,19 @@
 .product-category {
     margin-top: 40px;
-
+    margin-bottom: 30px;
     .heading-category {
         margin-bottom: 30px;
+        font-size: 24px;
+
     }
 
     .category__row {
-        gap: 20px;
-
+        gap: 15px;
+        margin: 0 auto;
         .col {
             padding: 0;
-            height: 232px;
-            width: 168px;
+            overflow: hidden;
             border-radius: 10px;
-            position: relative;
 
             &:nth-child(1) {
                 background-color: #FDE364;
@@ -31,7 +31,9 @@
         }
 
         .box {
-
+            position: relative;
+            height: 232px;
+            width: 168px;
             span {
                 position: absolute;
                 top: 20px;
@@ -39,6 +41,7 @@
                 right: 0;
                 text-align: center;
                 font-weight: 500;
+                z-index: 4;
             }
 
             img {
@@ -46,6 +49,7 @@
                 position: absolute;
                 bottom: 0;
                 right: 0;
+                z-index: 2;
                 border-radius: 10px;
             }
         }
